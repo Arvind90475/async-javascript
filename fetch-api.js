@@ -7,10 +7,3 @@ fetch(API_URL)
     .catch(err => {
         console.log(err);
     });
-
-
-fetch(API_URL)
-    .then(response => console.log(response))
-    .catch(err => {
-        console.log(err);
-    });
